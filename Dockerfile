@@ -4,3 +4,4 @@ LABEL "com.github.actions.name"="Auto Release"
 COPY entrypoint.sh /
 
 ENTRYPOINT ["/entrypoint.sh"]
+#
