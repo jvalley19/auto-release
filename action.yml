@@ -1,0 +1,10 @@
+name: 'Auto Release Mile'
+
+outputs: 
+    Release-url:
+        description: 'The URL of the gitub rlease that was drafted'
+
+runs:
+    using: 'docker'
+    image: 'dockerfile'
+
